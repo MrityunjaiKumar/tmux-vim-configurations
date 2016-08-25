@@ -36,17 +36,22 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " different version somewhere else.
 "Plugin 'ascenator/L9', {'name': 'newL9'}
 
-"Plugin 'altercation/vim-colors-solarized'
-Plugin 'jpo/vim-railscasts-theme'
+Plugin 'altercation/vim-colors-solarized'
+"Plugin 'jpo/vim-railscasts-theme'
+
+Plugin 'kien/ctrlp.vim' " fuzzy find files
+Plugin 'benmills/vimux'
+Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
-"set number        " Show line numbers
-"syntax enable     " Use syntax highlighting
-"set background=dark
-"colorscheme solarized
-"let g:solarized_termcolors = 256 
+set number        " Show line numbers
+syntax enable     " Use syntax highlighting
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors = 256 
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
