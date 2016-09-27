@@ -53,5 +53,9 @@ set background=dark
 colorscheme solarized
 let g:solarized_termcolors = 256 
 
+" For mouse click in NERDTree
+:set mouse=a
+let g:NERDTreeMouseMode=3 
+
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
