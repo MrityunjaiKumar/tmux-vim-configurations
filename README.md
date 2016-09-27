@@ -71,15 +71,15 @@ o |         go to the next pane (cycle through all of them)
 ;  |        go to the ‘last’ (previously used) pane
 
 Tmux  commands          | Descriptions 
-:----------------------:|:-----------------------------------------:
+:-------------------------:|:-----------------------------------------:
 tmux new -s sessionName |start new with session name
 d  |detach
 tmux a -t sessionName | attach to a sesssion 
 t  |big clock
 ?  |list shortcuts
 :  |prompt
-tmux a -t sessionName | attach to a sesssion 
-
+list disconnected session| tmux ls (in terminal outside tmux session)
+tmux a -t sessionName | aattach to a session eg.  **tmux attach -t 0**
 #Changing NERDTree bar width
 To view current value of size => **:let g:NERDTreeWinSize**<br/>
 To set the window size to some other value => **:let g:NERDTreeWinSize=20**<br/>
