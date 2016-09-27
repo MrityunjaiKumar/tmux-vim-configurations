@@ -1,5 +1,7 @@
 # tmux-vim-configurations
 Just few setting for tmux-vim that i prefer to use
+![git image](https://cloud.githubusercontent.com/assets/6240777/18878664/17b3ae8e-84ef-11e6-85fe-3de97dd2d5fa.png)
+
 
 vi command | 	description
 :---------:|:-------------------------------------------------------------:
