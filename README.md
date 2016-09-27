@@ -15,9 +15,9 @@ L 	|move to the bottom line of the current window (low)
 G 	|move to the last line of the file
 
 ##vim commands for auto word-completion
-**Word / pattern completion **
-    CTRL-x CTRL-n : Word completion – forward <br/>
-    CTRL-x CTRL-p : Word completion – backward<br/>
+**Word or pattern completion**
+CTRL-x CTRL-n : Word completion – forward <br/>
+CTRL-x CTRL-p : Word completion – backward<br/>
 
 **Line completion**
 Ctrl-x Ctrl-l
