@@ -14,9 +14,9 @@ G 	|move to the last line of the file
 
 #TMux Commands
 bind j resize-pane -D 10 <br/>
-bind k resize-pane -U 10
-bind l resize-pane -L 10
-bind h resize-pane -R 10
+bind k resize-pane -U 10 <br/>
+bind l resize-pane -L 10 <br/>
+bind h resize-pane -R 10 <br/>
 
 and now I can use Ctrl-a (my prefix key) with [h|j|k|l] to resize the panes
 
