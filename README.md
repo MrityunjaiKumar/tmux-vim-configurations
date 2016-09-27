@@ -1,8 +1,9 @@
 # tmux-vim-configurations
 Just few setting for tmux-vim that i prefer to use
 
-vi command 	description
-0 	move to beginning of the current line
+vi command | 	description
+:---------:|:-------------------------------------------------------------:
+0 	   |move to beginning of the current line
 $ 	move to end of line
 H 	move to the top of the current window (high)
 M 	move to the middle of the current window (middle)
