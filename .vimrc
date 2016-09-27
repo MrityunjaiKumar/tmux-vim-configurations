@@ -1,6 +1,7 @@
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/vundle/
+set dictionary+=/usr/share/dict/words
 call vundle#rc()
 
 " This is the Vundle package, which can be found on GitHub.
@@ -56,6 +57,7 @@ let g:solarized_termcolors = 256
 " For mouse click in NERDTree
 :set mouse=a
 let g:NERDTreeMouseMode=3 
+let g:NERDTreeWinSize=20
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
