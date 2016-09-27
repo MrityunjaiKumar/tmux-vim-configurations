@@ -36,7 +36,6 @@ Tmux command| Descriptions
 :----------:|:---------------------------------------:        
 %  |vertical split
 "  |horizontal split
-
 o  |swap panes
 q  |show pane numbers
 x  |kill pane
