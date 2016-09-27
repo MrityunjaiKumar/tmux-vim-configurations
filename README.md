@@ -18,3 +18,9 @@ bind k resize-pane -U 10
 bind l resize-pane -L 10
 bind h resize-pane -R 10
 and now I can use Ctrl-a (my prefix key) with [h|j|k|l] to resize the panes
+
+Tmux  commands          | Descriptions 
+:----------------------:|:-----------------------------------------:
+tmux new -s sessionName |start new with session name
+
+
