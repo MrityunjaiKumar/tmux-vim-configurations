@@ -31,6 +31,18 @@ f|   find window <br/>
 ,|   name window <br/>
 &|  kill window
 
+#playing with planes in TMUX
+Tmux command| Descriptions                                                          │
+:----------:|:---------------------------------------:        
+%  |vertical split
+"  |horizontal split
+
+o  |swap panes
+q  |show pane numbers
+x  |kill pane
++  |break pane into window (e.g. to select text by mouse to copy)
+-  |restore pane from window
+
 Tmux  commands          | Descriptions 
 :----------------------:|:-----------------------------------------:
 tmux new -s sessionName |start new with session name
