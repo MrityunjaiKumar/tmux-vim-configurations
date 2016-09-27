@@ -15,13 +15,18 @@ L 	|move to the bottom line of the current window (low)
 G 	|move to the last line of the file
 
 ##vim commands for auto word-completion
-**Word / pattern completion ** <br/>
+**Word / pattern completion **
     CTRL-x CTRL-n : Word completion – forward <br/>
     CTRL-x CTRL-p : Word completion – backward<br/>
 
 **Line completion**
-Dictionary word completion
-File name completion
+Ctrl-x Ctrl-l
+
+**Dictionary word completion**
+Ctrl-x Ctrl-k
+
+**File name completion**
+Ctrl-x Ctrl-f
 
 #TMux Commands
 bind j resize-pane -D 10 <br/>
