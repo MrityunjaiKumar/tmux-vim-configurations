@@ -45,6 +45,10 @@ x  |kill pane
 Tmux  commands          | Descriptions 
 :----------------------:|:-----------------------------------------:
 tmux new -s sessionName |start new with session name
-tmux a -t sessionName | attach to a sesssion
-tmux 
+d  |detach
+tmux a -t sessionName | attach to a sesssion 
+t  |big clock
+?  |list shortcuts
+:  |prompt
+tmux a -t sessionName | attach to a sesssion 
 
