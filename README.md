@@ -20,7 +20,7 @@ bind h resize-pane -R 10 <br/>
 
 and now I can use Ctrl-a (my prefix key) with [h|j|k|l] to resize the panes
 
-#Playing with diffent windows (commands are followed after prefix key)
+#Playing with different windows (commands are followed after prefix key)
 Tmux command| Descriptions
 :----------:|:---------------------------------------:
 c|   create window <br/>
