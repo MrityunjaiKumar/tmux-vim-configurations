@@ -80,3 +80,8 @@ t  |big clock
 :  |prompt
 tmux a -t sessionName | attach to a sesssion 
 
+#Changing NERDTree bar width
+TO view current value of size => **:let g:NERDTreeWinSize**<br/>
+To set the window size to some other value => **:let g:NERDTreeWinSize=20**<br/>
+To make this change permanent, put this line in your vimrc file=> **let g:NERDTreeWinSize=20**
+
