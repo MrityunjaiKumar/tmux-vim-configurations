@@ -13,7 +13,7 @@ L 	|move to the bottom line of the current window (low)
 G 	|move to the last line of the file
 
 #TMux Commands
-bind j resize-pane -D 10
+bind j resize-pane -D 10 <br/>
 bind k resize-pane -U 10
 bind l resize-pane -L 10
 bind h resize-pane -R 10
