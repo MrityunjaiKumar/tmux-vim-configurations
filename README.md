@@ -41,6 +41,12 @@ q  |show pane numbers
 x  |kill pane
 +  |break pane into window (e.g. to select text by mouse to copy)
 -  |restore pane from window
+left|       go to the next pane on the left
+right|      (or one of these other directions)
+up|
+down|
+o |         go to the next pane (cycle through all of them)
+;  |        go to the ‘last’ (previously used) pane
 
 Tmux  commands          | Descriptions 
 :----------------------:|:-----------------------------------------:
