@@ -20,14 +20,16 @@ bind h resize-pane -R 10 <br/>
 
 and now I can use Ctrl-a (my prefix key) with [h|j|k|l] to resize the panes
 
-#Playing with diffent planes 
-c   create window <br/>
-w   list windows <br/>
-n   next window <br/>
-p   previous window <br/>
-f   find window <br/>
-,   name window <br/>
-&  kill window
+#Playing with diffent windows (commands are followed after prefix key)
+Tmux command| Descriptions
+:----------:|:---------------------------------------:
+c|   create window <br/>
+w|   list windows <br/>
+n|   next window <br/>
+p|   previous window <br/>
+f|   find window <br/>
+,|   name window <br/>
+&|  kill window
 
 Tmux  commands          | Descriptions 
 :----------------------:|:-----------------------------------------:
