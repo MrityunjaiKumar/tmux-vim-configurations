@@ -21,10 +21,10 @@ bind h resize-pane -R 10 <br/>
 and now I can use Ctrl-a (my prefix key) with [h|j|k|l] to resize the panes
 
 Reloading TMUX config
-*:source-file ~/.tmux.conf*<br/>
+**:source-file ~/.tmux.conf**<br/>
 Or simply from a shell:<br/>
 
-*tmux source-file ~/.tmux.conf*
+**tmux source-file ~/.tmux.conf**
 
 #Playing with different windows (commands are followed after prefix key)
 Tmux command| Descriptions
