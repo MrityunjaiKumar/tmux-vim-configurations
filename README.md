@@ -32,7 +32,7 @@ f|   find window <br/>
 &|  kill window
 
 #playing with planes in TMUX
-Tmux command| Descriptions                                                          │
+Tmux command| Descriptions                                                     
 :----------:|:---------------------------------------:        
 %  |vertical split
 "  |horizontal split
