@@ -1,5 +1,5 @@
 # tmux-vim-configurations
-Just few setting for tmux-vim that i prefer to use
+Just few setting for tmux-vim that i prefer to use <br/>
 **Instruction to use**
 1. just copy .tmux.conf and .vimrc to ~/ (in case of ubuntu/other linux system)
 2. Open vim and isse this command **:PluginInstall**.
