@@ -7,7 +7,7 @@ Just few setting for tmux-vim that i prefer to use <br/>
 
 
 vi command | 	description
-:---------:|:-------------------------------------------------------------:
+:--------------------:|:-------------------------------------------------------------:
 0 	   |move to beginning of the current line
 $ 	|move to end of line
 H 	|move to the top of the current window (high)
@@ -16,6 +16,8 @@ L 	|move to the bottom line of the current window (low)
 1G 	|move to the first line of the file
 20G 	|move to the 20th line of the file
 G 	|move to the last line of the file
+:new filename.ext|create new document inside vim
+:vert new filename.ext|open a new window beside the current one
 
 ##vim commands for auto word-completion
 **Word or pattern completion**
