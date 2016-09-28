@@ -1,5 +1,8 @@
 # tmux-vim-configurations
 Just few setting for tmux-vim that i prefer to use
+**Instruction to use**
+1. just copy .tmux.conf and .vimrc to ~/ (in case of ubuntu/other linux system)
+2. Open vim and isse this command **:PluginInstall**.
 ![git image](https://cloud.githubusercontent.com/assets/6240777/18878664/17b3ae8e-84ef-11e6-85fe-3de97dd2d5fa.png)
 
 
@@ -72,8 +75,7 @@ o |         go to the next pane (cycle through all of them)
 
 Tmux  commands          | Descriptions 
 :-------------------------:|:-----------------------------------------:
-tmux new -s sessionName |start new with session name
-d  |detach
+
 tmux a -t sessionName | attach to a sesssion 
 t  |big clock
 ?  |list shortcuts
