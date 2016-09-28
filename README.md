@@ -2,7 +2,7 @@
 Just few setting for tmux-vim that i prefer to use <br/>
 **Instruction to use**<br/>
 1. just copy .tmux.conf and .vimrc to ~/ (in case of ubuntu/other linux system)<br/>
-2. Open vim and isse this command **:PluginInstall**.<br/>
+2. Open vim and issue this command **:PluginInstall**.<br/>
 ![git image](https://cloud.githubusercontent.com/assets/6240777/18878664/17b3ae8e-84ef-11e6-85fe-3de97dd2d5fa.png)
 
 
