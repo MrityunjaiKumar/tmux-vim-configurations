@@ -1,12 +1,23 @@
 # tmux-vim-configurations
 Just few setting for tmux-vim that i prefer to use <br/>
 **Instruction to use**<br/>
-1. just copy .tmux.conf and .vimrc to ~/ (in case of ubuntu/other linux system)<br/>
-2. Open vim and issue this command **:PluginInstall**.<br/>
+1. sudo apt-get update <br/>
+2. sudo apt-get install vim git <br/>
+3. git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle<br/>
+4. just copy .tmux.conf and .vimrc to ~/ (in case of ubuntu/other linux system)<br/>
+5. Open vim and issue this command **:PluginInstall**.<br/>
+6. To update plugin use **:PluginUpdate**<br/>
 ![git image](https://cloud.githubusercontent.com/assets/6240777/18878664/17b3ae8e-84ef-11e6-85fe-3de97dd2d5fa.png)
 
+<br/>we can list every plugin that vundle can find on the Vim Scripts site by typing:
 
-vi command | 	description
+:Plugins
+Or
+:PluginSearch!
+The "!" at the end of the command refreshes the local list from the Vim Scripts site.
+If we want to search for a specific plugin, we can use this same syntax like this: **:PluginSearch! plugin_query**
+
+command | 	description
 :--------------------:|:-------------------------------------------------------------:
 0 	   |move to beginning of the current line
 $ 	|move to end of line
@@ -76,9 +87,8 @@ down|
 o |         go to the next pane (cycle through all of them)
 ;  |        go to the ‘last’ (previously used) pane
 
-Tmux  commands          | Descriptions 
+Tmux  commands             | Descriptions 
 :-------------------------:|:-----------------------------------------:
-
 tmux a -t sessionName | attach to a sesssion 
 t  |big clock
 ?  |list shortcuts
