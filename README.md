@@ -30,6 +30,10 @@ G 	|move to the last line of the file
 :new filename.ext|create new document inside vim
 :vert new filename.ext|open a new window beside the current one
 1 followed by Ctrl+G| see the full path of the current file. 
+sp filename | for opening a file n horizontal split
+vsp filename or vs filename | for vertical split
+CTRL-W > | wider
+CTRL-W < | narrower
 
 ##vim commands for auto word-completion
 **Word or pattern completion**
