@@ -50,9 +50,9 @@ call vundle#end()            " required
 
 set number        " Show line numbers
 syntax enable     " Use syntax highlighting
-set background=dark
-colorscheme solarized
-let g:solarized_termcolors = 256 
+" set background=dark
+" colorscheme solarized
+" let g:solarized_termcolors = 256 
 
 " For mouse click in NERDTree
 :set mouse=a
