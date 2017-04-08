@@ -29,7 +29,7 @@ Plugin 'L9'
 " Git plugin not hosted on GitHub
 Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
-Plugin 'file:///home/gmarik/path/to/plugin'
+"Plugin 'file:///home/gmarik/path/to/plugin'
 " The sparkup vim script is in a subdirectory of this repo called vim.
 " Pass the path to set the runtimepath properly.
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
@@ -58,6 +58,16 @@ syntax enable     " Use syntax highlighting
 :set mouse=a
 let g:NERDTreeMouseMode=3 
 let g:NERDTreeWinSize=20
+
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
+
+if has("gui_running")
+   let s:uname = system("uname")
+   if s:uname == "Darwin\n"
+      set guifont=Meslo\ LG\ S\ for\ Powerline
+   endif
+endif
+
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
