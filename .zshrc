@@ -10,6 +10,11 @@
 #ZSH_THEME="random"
 #ZSH_THEME="mikeh"
 ZSH_THEME="dogenpunk"
+
+#custom addition by mj
+. /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
+
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
