@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt-get install vim tmux zsh git python-pip-y 
+sudo apt-get install vim tmux zsh git python-pip -y 
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle 
 cp .tmux.conf ~/
 cp .vimrc ~/
