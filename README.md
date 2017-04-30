@@ -35,7 +35,7 @@ vsp filename or vs filename | for vertical split
 CTRL-W > | wider
 CTRL-W < | narrower
 
-##vim commands for auto word-completion
+## vim commands for auto word-completion
 
 **Word or pattern completion**
 CTRL-x CTRL-n : Word completion – forward <br/>
@@ -50,7 +50,7 @@ Ctrl-x Ctrl-k
 **File name completion**
 Ctrl-x Ctrl-f
 
-#TMux Commands
+# TMux Commands
 bind j resize-pane -D 10 <br/>
 bind k resize-pane -U 10 <br/>
 bind l resize-pane -L 10 <br/>
@@ -64,7 +64,7 @@ Or simply from a shell:<br/>
 
 **tmux source-file ~/.tmux.conf**
 
-#Playing with different windows (commands are followed after prefix key)
+# Playing with different windows (commands are followed after prefix key)
 Tmux command| Descriptions
 :----------:|:---------------------------------------:
 c|   create window <br/>
@@ -75,7 +75,7 @@ f|   find window <br/>
 ,|   name window <br/>
 &|  kill window
 
-#playing with planes in TMUX
+# playing with planes in TMUX
 Tmux command| Descriptions                                                     
 :----------:|:---------------------------------------:        
 %  |vertical split
@@ -100,8 +100,7 @@ t  |big clock
 :  |prompt
 list disconnected session| tmux ls (in terminal outside tmux session)
 tmux a -t sessionName | aattach to a session eg.  **tmux attach -t 0**
-#Changing NERDTree bar width
+# Changing NERDTree bar width
 To view current value of size => **:let g:NERDTreeWinSize**<br/>
 To set the window size to some other value => **:let g:NERDTreeWinSize=20**<br/>
 To make this change permanent, put this line in your vimrc file=> **let g:NERDTreeWinSize=20**
-
