@@ -92,6 +92,7 @@ down|
 o |         go to the next pane (cycle through all of them)
 ;  |        go to the ‘last’ (previously used) pane
 
+
 Tmux  commands             | Descriptions 
 :-------------------------:|:-----------------------------------------:
 tmux a -t sessionName | attach to a sesssion 
