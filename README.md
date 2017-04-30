@@ -36,6 +36,7 @@ CTRL-W > | wider
 CTRL-W < | narrower
 
 ##vim commands for auto word-completion
+
 **Word or pattern completion**
 CTRL-x CTRL-n : Word completion – forward <br/>
 CTRL-x CTRL-p : Word completion – backward<br/>
