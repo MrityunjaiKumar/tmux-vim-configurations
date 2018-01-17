@@ -43,15 +43,15 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'kien/ctrlp.vim' " fuzzy find files
 Plugin 'benmills/vimux'
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
-
+Plugin 'NLKNguyen/papercolor-theme'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
 set number        " Show line numbers
 syntax enable     " Use syntax highlighting
-" set background=dark
-" colorscheme solarized
+set background=dark
+colorscheme PaperColor
 " let g:solarized_termcolors = 256 
 
 " For mouse click in NERDTree
