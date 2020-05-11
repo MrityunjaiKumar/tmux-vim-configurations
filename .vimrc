@@ -71,3 +71,6 @@ endif
 
 " Now we can turn our filetype functionality back on
 filetype plugin indent on
+
+:set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:␣
+:set list
